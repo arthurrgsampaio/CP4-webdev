@@ -1,0 +1,23 @@
+#containerHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 8rem;
+}
+
+.select {
+    text-decoration: none;
+}
+
+.select:link, .select:visited{
+    color: black
+}
+
+.select:hover {
+    cursor: pointer;
+}
+
+.selected {
+    border-bottom: 1px solid black;
+}

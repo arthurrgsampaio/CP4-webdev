@@ -1,0 +1,8 @@
+.buttons {
+    border-radius: 1rem;
+    border: none;
+    background-color: rgb(6, 6, 6);
+    color: whitesmoke;
+    font-size: 1rem;
+    padding: 1rem 1.5rem;
+}
