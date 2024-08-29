@@ -1,4 +1,4 @@
-import React from "react"
+/* eslint-disable react/prop-types */
 import "./header.css"
 import { Link } from "react-router-dom"
 

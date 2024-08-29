@@ -2,5 +2,34 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
     height: 100vh;
+}
+
+#firstHomeContainer {
+    width: 90%;
+    display: flex;
+    gap: 1.5rem;
+
+    & #textHome {
+        font-size: 1.5rem;
+        width: 70%;
+    }
+
+    & img {
+        width: 100%;
+    }
+}
+
+#textContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#cardsContainer {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
 }
