@@ -1,0 +1,33 @@
+.card {
+  width: 25%;
+  height: 100%;
+  padding: 3rem;
+  border-radius: 1rem;
+  position: relative;
+
+  .numberIcon {
+    display: flex;
+    justify-content: space-between;
+    top: 1rem;
+    & h2 {
+      font-size: 5rem;
+      color: white;
+    }
+
+    & img {
+      width: 60px;
+      height: 60px;
+      object-fit: cover;
+      border-radius: 5rem;
+      align-self: center;
+    }
+  }
+
+  & h3 {
+    font-size: 1.5rem;
+  }
+
+  & p {
+    font-size: 1rem;
+  }
+}
