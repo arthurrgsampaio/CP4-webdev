@@ -3,7 +3,6 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: 100vh;
 }
 
 #firstHomeContainer {
@@ -33,4 +32,5 @@
     justify-content: center;
     align-items: center;
     width: 90%;
+    margin-bottom: 3rem;
 }
