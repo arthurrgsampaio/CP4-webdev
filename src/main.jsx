@@ -10,7 +10,7 @@ import Contato from './pages/Contato/Contato';
 
 const router = createBrowserRouter([
   { path: "/", element: <Home/> }, 
-  { path: "/contato", element: <Contato/>}
+  { path: "/contato", element: <Contato/>},
   { path: "/sobre", element: <About /> }
 ]);
 
