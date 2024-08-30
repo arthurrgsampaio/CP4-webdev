@@ -19,7 +19,9 @@ export default function About() {
             em larga escala com qualidade profissional, capaz de atingir uma
             audiência de milhões de seguidores.
           </p>
-          <Button texto={"Baixe o app"} />
+          <Button>
+            Baixe o app
+          </Button>
         </div>
         <div className="banner-fotos">
           <img
@@ -33,7 +35,7 @@ export default function About() {
         </div>
       </header>
 
-      <main className="cardsAbout">
+      <main className="cardsAboutContainer">
         <h2>Planos</h2>
         <div className="cards">
           <CardsAbout
