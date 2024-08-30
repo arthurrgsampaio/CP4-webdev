@@ -1,0 +1,46 @@
+.bannerAbout {
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bannerText {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    & h1 {
+        font-size: 48px;
+    }
+
+    & p {
+        font-size: 20px;
+    }
+}
+
+.bannerAbout {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.mainAbout {
+    background-color: #F4F2F2;
+    padding: 25px;
+    margin: 0 -30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.cardsAbout {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
