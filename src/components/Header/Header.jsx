@@ -15,7 +15,7 @@ const Header = ({ selected }) => {
 
         case "sobre":
             return (
-                <div id="container">
+                <div id="containerHeader"> // O erro estava aqui, o id estava com o nome errado, fui cagar e já volto
                     <Link to="/" className="select">Home</Link>
                     <Link to="/sobre" className="select selected">Sobre</Link>
                     <Link to="/contato" className="select">Contato</Link>
@@ -24,7 +24,7 @@ const Header = ({ selected }) => {
 
         case "contato":
             return (
-                <div id="container">
+                <div id="containerHeader">
                     <Link to="/" className="select">Home</Link>
                     <Link to="/sobre" className="select">Sobre</Link>
                     <Link to="/contato" className="select selected">Contato</Link>
