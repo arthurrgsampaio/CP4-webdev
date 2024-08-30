@@ -1,8 +1,8 @@
 .contatoPage{
     display: flex;
-    margin: 0px 9rem;
+    margin: 0px auto;
     padding: 2rem;
-    width: 1440px;
+    width: 1200px;
 }
 
 .socialsContacts{
@@ -10,14 +10,14 @@
     border-right: 1px solid rgba(185, 183, 183, 1);
     padding-right: 50px;
     font-family: roboto mono;
-    font-size: 55px;
+    font-size: 40px;
     display: flex;
     flex-direction: column;
     gap: 3rem
 }
 
 .infosContacts{
-    font-size: 28px;
+    font-size: 20px;
     display: flex;
     flex-direction: column;
     padding-top: 30px;
@@ -52,8 +52,8 @@
 }
 
 #insert-messageContacts{
-    height: 229px;
-    width: 507px;
+    height: 200px;
+    width: 400px;
     box-shadow: 2px 2px 5px rgba(185, 183, 183, 1);
     border-radius: 20px;
     border: 0px;
@@ -67,7 +67,5 @@
     width: 225px;
     color: whitesmoke;
     font-weight: 700px;
-    margin-left: 285px;
+    margin-left: 170px;
 }
-
-
