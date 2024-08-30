@@ -1,0 +1,63 @@
+.bannerAbout {
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.bannerText {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-left: 40px;
+
+    & h1 {
+        font-size: 60px;
+    }
+
+    & p {
+        font-size: 25px;
+    }
+
+}
+
+.banner-fotos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 80px;
+    padding-right: 30vh;
+}
+
+.mainAbout {
+    background-color: #F4F2F2;
+    padding: 25px;
+    margin: 0 -30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.cardsAboutContainer {
+    margin-top: 3rem;
+    padding: 10px 0 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    box-shadow: -1px 0px 8px 3px rgb(173, 173, 173);
+}
+
+.cards{
+    width: 80vh;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
